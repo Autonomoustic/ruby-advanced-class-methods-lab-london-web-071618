@@ -34,5 +34,8 @@ class Song
     end
     return found
   end
+  
+  def self.find_or_create_by_name(name)
+  end
 
 end
