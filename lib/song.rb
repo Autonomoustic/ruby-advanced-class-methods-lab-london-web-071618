@@ -44,4 +44,6 @@ class Song
     sorted = @@all.sort_by { |s| s.name }
     return sorted
   end
+  
+  def self.new
 end
