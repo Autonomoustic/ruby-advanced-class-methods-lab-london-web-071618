@@ -32,7 +32,7 @@ class Song
     found = @@all.find do |s|
       s.name == name
     end
-    return name
+    return found
   end
 
 end
