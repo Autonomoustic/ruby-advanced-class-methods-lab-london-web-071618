@@ -47,7 +47,5 @@ class Song
   
   def self.new_from_filename(filename)
     file = filename.split("-")
-    format = file.collect do |f|
-      data = f.split
   end
 end
