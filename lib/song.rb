@@ -45,5 +45,6 @@ class Song
     return sorted
   end
   
-  def self.new
+  def self.new_frome_filename
+  end
 end
