@@ -38,7 +38,7 @@ class Song
   def self.find_or_create_by_name(name)
     create_by_name
     find_by_name
-    return self
+    return self.n
   end
 
 end
